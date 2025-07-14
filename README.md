@@ -10,7 +10,7 @@ Este repositorio contiene un Jupyter Notebook en el que se implementa un modelo 
   2. **Análisis exploratorio** (correlaciones, distribución de clases).
   3. **División** en conjuntos de entrenamiento y prueba.
   4. **Entrenamiento** del `DecisionTreeClassifier`.
-  5. **Evaluación** del modelo (precisión, recall, F1, matriz de confusión).
+  5. **Evaluación** del modelo con accuracy
   6. **Visualización** del árbol y extracción de reglas de decisión.
 * **data/drug200.csv**: Conjunto de datos original.
 * **requirements.txt**: Dependencias del proyecto.
