@@ -1,10 +1,10 @@
 # Predicción de Fármacos con Árbol de Decisión
 
-Este repositorio contiene un Jupyter Notebook donde se implementa un modelo de árbol de decisión para predecir el fármaco más adecuado según parámetros de salud de pacientes.
+Este repositorio contiene un Jupyter Notebook en el que se implementa un modelo de árbol de decisión para predecir el fármaco más adecuado según parámetros de salud de pacientes.
 
 ## Contenido
 
-* `Drug_Prediction.ipynb`: Notebook con:
+* **Drug\_Prediction.ipynb**: Notebook con:
 
   1. **Carga y preprocesamiento** de datos (codificación de variables categóricas, verificación de valores faltantes).
   2. **Análisis exploratorio** (correlaciones, distribución de clases).
@@ -12,13 +12,13 @@ Este repositorio contiene un Jupyter Notebook donde se implementa un modelo de �
   4. **Entrenamiento** del `DecisionTreeClassifier`.
   5. **Evaluación** del modelo (precisión, recall, F1, matriz de confusión).
   6. **Visualización** del árbol y extracción de reglas de decisión.
-
-* `data/drug200.csv`: Conjunto de datos original.
+* **data/drug200.csv**: Conjunto de datos original.
+* **requirements.txt**: Dependencias del proyecto.
 
 ## Requisitos
 
 * Python 3.7+
-* Jupyter Notebook
+* Jupyter Lab o Jupyter Notebook
 * Librerías:
 
   * pandas
@@ -26,32 +26,44 @@ Este repositorio contiene un Jupyter Notebook donde se implementa un modelo de �
   * scikit-learn
   * matplotlib
 
-Puedes instalar las dependencias con:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Uso
+## Instalación
 
 1. Clona el repositorio:
 
    ```bash
+   git clone https://github.com/Christ02/Arbol-de-decision.git
+   cd Arbol-de-decision
    ```
 
-git clone https://github.com/Christ02/Arbol-de-decision.git
+2. Crea y activa un entorno virtual (recomendado):
 
-````
-2. Abre el Notebook:
    ```bash
-jupyter notebook Drug_Prediction.ipynb
-````
+   python3 -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate   # Windows
+   ```
 
-3. Ejecuta cada celda en orden.
+## Uso
+
+Puedes levantar el proyecto con Jupyter Lab o Notebook:
+
+* **Jupyter Lab**:
+
+  ```bash
+  jupyter lab
+  ```
+
+* **Jupyter Notebook**:
+
+  ```bash
+  jupyter notebook
+  ```
+
+Luego, abre el archivo `ArbolDecision.ipynb` y ejecuta las celdas en orden.
 
 ## Resultados
 
-Al final obtendrás:
+Al completar el notebook, obtendrás:
 
 * Precisión del modelo (\~98.3%).
 * Diagrama del árbol de decisión.
@@ -59,4 +71,4 @@ Al final obtendrás:
 
 ## Licencia
 
-© 2025 Christian02801
+MIT © 2025 Christian02801
