@@ -71,4 +71,5 @@ Al completar el notebook, obtendrás:
 
 ## Licencia
 
-MIT © 2025 Christian02801
+© 2025 Christian Barrios
+
